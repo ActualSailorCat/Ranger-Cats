@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6f6e6ba2-36f5-495d-9f99-4bd83561c63e" version="1">
+  <Properties>
+    <Name>Ranger Cats</Name>
+    <Description>Replaces the Ranger's dog with cats.
+
+Requires the free Scout Cat DLC, which you get by linking your game with a 2K account. After launching the game, you should see the option in the bottom-right corner of the main menu.</Description>
+    <Created>1590197426</Created>
+    <Teaser>Replaces the Ranger's dog with cats.</Teaser>
+    <Authors>SailorCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateArt id="RangerCat">
+      <Properties>
+        <LoadOrder>1778</LoadOrder>
+      </Properties>
+      <File>Ranger Cats.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="RangerCatPortraits">
+      <Properties>
+        <LoadOrder>1778</LoadOrder>
+      </Properties>
+      <File>Icons/Sailor_RangerCat_Icons.sql</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Units.artdef</File>
+    <File>Icons/Sailor_RangerCat_Icons.sql</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Ranger Cats.dep</File>
+    <File>XLPs/Atlas.xlp</File>
+  </Files>
+</Mod>
